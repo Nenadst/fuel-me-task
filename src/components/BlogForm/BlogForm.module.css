@@ -1,0 +1,23 @@
+.formContainer {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 992px) {
+  .inputGroup {
+    flex-direction: column;
+  }
+}

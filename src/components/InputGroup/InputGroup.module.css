@@ -1,0 +1,20 @@
+.labelAndInput {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  flex: 1 1 auto;
+}
+
+.labelAndInput label {
+  font-weight: bold;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  padding-right: 0;
+}
